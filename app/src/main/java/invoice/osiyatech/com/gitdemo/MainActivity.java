@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AsyncTaskExample asyncTask=new AsyncTaskExample();
-                asyncTask.execute("https://www.tutorialspoint.com/images/tp-logo-diamond.png");
+                asyncTask.execute("https://homepages.cae.wisc.edu/~ece533/images/fruits.png");
             }
         });
     }
